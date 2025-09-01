@@ -18,7 +18,7 @@ A responsive learning journal template,
 
 ## Screenshots
 
-(![learning jounral screenshot](learningJournal.png))
+![learning journal screenshot](learningJournal.png)
 
 ## What I Learned
 
