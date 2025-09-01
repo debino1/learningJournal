@@ -1,0 +1,83 @@
+
+<html>
+<head>
+	<!-- Challenge: Add a viewport meta tag -->
+	<title>My Learning Journal</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+        <div class="container">
+			<a href="home.html">
+                <h1> <span> 
+                    <img src="images/logo.jpg" alt="My Learning Journal Logo" class="logo" />
+                    </span> My Learning Journal
+                </h1>
+            </a>
+			<!-- Site Navigation -->
+			<nav>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="about.html">About Me</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+    <!-- Article Section -->
+     <main class="art-container">
+        <section class="main-container">
+            <div class = "profile-container">
+                <img src="images/profile.jpg" class="profile-image" alt="Profile picture of the blog author">
+                <div class = "profile-info">
+                    <h2>Blog Title</h2>
+                    <p>This is a brief description of the featured article. It provides an overview of the content and encourages readers to explore further.</p>
+                </div>
+            </div>
+            <h4 class="subheading">Subheading</h4>
+            <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan arcu. Proin ac consequat arcu. Nullam euismod, nisi vel consectetur interdum, nisl nisi aliquet nunc, a facilisis nulla nunc vel risus. Sed euismod, nisl vel tincidunt lacinia, nunc est aliquet nunc, a facilisis nulla nunc vel risus.</p>
+            <h4 class="subheading">Another Subheading</h4>
+            <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan arcu. Proin ac consequat arcu. Nullam euismod, nisi vel consectetur interdum, nisl nisi aliquet nunc, a facilisis nulla nunc vel risus. Sed euismod, nisl vel tincidunt lacinia, nunc est aliquet nunc, a facilisis nulla nunc vel risus.</p>
+        </section>
+        <!-- Article Section -->
+        <section class="articles-container">
+            <h3>Recent posts</h3>
+            <article class="card" data-url="article.html">
+                <img src="images/one.jpg" 
+                alt="A small evergreen tree in a forest" />
+                <p>
+                    <time datetime="2025-08-28">August 28, 2025</time>
+                </p>
+                <h4>Blog one</h4>
+                <p>A deep dive into the lush greenery of forest ecosystems.</p>
+            </article>
+            <article class="card" data-url="article.html">
+                <img src="images/two.jpg" 
+                alt="A densely forested hillside" />
+                <p>
+                    <time datetime="2025-08-28">August 29, 2025</time>
+                </p>
+                <h4>Blog two</h4>
+                <p>Exploring the beauty and diversity of nature.</p>
+            </article>
+            <article class="card" data-url="article.html">
+                <img src="images/three.jpg" 
+                alt="A snowy mountain range" />
+                <p>
+                    <time datetime="2025-08-28">August 30, 2025</time>
+                </p>
+                <h4>Blog three</h4>
+                <p>A journey through the majestic peaks and valleys.</p>
+            </article>
+        </section>
+    </main>
+    <!-- Footer Section -->
+	<footer>
+		<p>&copy; 2025 My Learning Journal</p>
+	</footer>
+        <script src="index.js" type="module"></script>
+</body>
+</html>
