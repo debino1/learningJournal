@@ -18,7 +18,9 @@ A responsive learning journal template,
 
 ## Screenshots
 
-![learning journal screenshot](learningJournal.png)
+<a href="learningJournal.png">
+    <img src="learningJournal.png" alt="Learning Journal screenshot" width="250"/>
+  </a>
 
 ## What I Learned
 
