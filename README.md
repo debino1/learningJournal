@@ -14,7 +14,7 @@ A responsive learning journal template,
 
 ## Live Demo
 
-[buzzpeep.netlify.app](https://buzzpeep.netlify.app/)
+[learningjrnal.netlify.app](https://learningjrnal.netlify.app/)
 
 ## Screenshots
 
