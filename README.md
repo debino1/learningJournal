@@ -18,7 +18,7 @@ A responsive learning journal template,
 
 ## Screenshots
 
-![Screenshot 2025-07-31 at 19 44 05](![learning jounral screenshot](learningJournal.png))
+(![learning jounral screenshot](learningJournal.png))
 
 ## What I Learned
 
